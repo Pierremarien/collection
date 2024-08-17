@@ -1,13 +1,26 @@
 @import "../../styles/variables.module.scss";
 
-.loader {
-  #lines {
+.position {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .loader {
+    width: 30%;
+    height: 70%;
+    opacity: 0.6;
+  }
+  .lines {
     stroke: $white;
   }
-  #numbers {
-    fill: $light-green;
+  .numbers {
+    stroke: $white;
   }
-  #side {
-    fill: $white;
+  .side {
+    stroke: $white;
   }
 }
